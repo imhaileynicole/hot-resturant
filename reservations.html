@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant</title>
+</head>
+<body>
+    <div class="container">
+
+
+    <div class="jumbotron">
+        <h1 class="hot-1"><span class="glyphicon glyphicon-fire"></span> Hot Resturant</h1>
+        
+        <hr class="my-4">
+        <p><h2 class= "hot-2">Current Reservations and Waiting List</h2></p>
+        <div class="text-center">
+            <a href="/table"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a>
+            <a href=""><button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button></a>
+        </div>
+
+
+    </div>
+    <!--Current Reservations-->
+    <div class="panel panel-default">
+        <div class="panel-heading"><strong><h3>Current Reservations</h3></strong></div>
+        <div class="panel-body"></div>
+      
+      
+      <div class="panel-body" id="tableSelection">
+        <div class="well" id="tableWell-01"><h2>
+            <span class="label label-primary">1</span> | </h2></div>
+            <div class="well" id="tableWell-11"><h2><span class="label label-primary">2</span> |</h2></div>
+            <div class="well" id="tableWell-21"><h2><span class="label label-primary">3</span> | </h2></div></div>
+        </div>
+      
+        <!--Waiting List Panel-->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title"><strong><h3>Waiting List</h3></strong></h4>
+            </div>
+            <div class="panel-body" id="waitlistSelection">
+            </div>
+        </div>
+
+
+       <p><h3> Control Panel </h3> </p>
+     <br>
+
+     <p><h4><a href="#" id="clear">Clear Table</a> |
+         <a href="#">API Table Link</a> |
+          <a href="#">API Wait List</a></h4</p>
+        
+    </div>
+</body>
+</html>
